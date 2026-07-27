@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FL Scratch-Offs — Prizes Remaining</title>
+<style>
+  :root {
+    --bg: #0f1720;
+    --card: #17212b;
+    --accent: #2fbf71;
+    --text: #e8edf2;
+    --muted: #8a97a3;
+    --border: #24313d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 16px;
+  }
+  h1 { font-size: 1.3rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
+  .controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  select, input {
+    background: var(--card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+  }
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .name { font-weight: 600; font-size: 1rem; }
+  .price { color: var(--muted); font-size: 0.85rem; }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    font-size: 0.88rem;
+  }
+  .label { color: var(--muted); }
+  .top-prize { color: var(--accent); font-weight: 600; }
+  .odds { font-variant-numeric: tabular-nums; }
+  .depleted { opacity: 0.45; }
+  .badge {
+    display: inline-block;
+    background: rgba(47,191,113,0.15);
+    color: var(--accent);
+    border-radius: 6px;
+    padding: 1px 6px;
+    font-size: 0.75rem;
+    margin-left: 6px;
+  }
+  #status { color: var(--muted); font-size: 0.85rem; margin: 20px 0; }
+</style>
+</head>
+<body>
+
+<h1>🎟️ Florida Scratch-Offs</h1>
+<div class="sub" id="updated">Loading…</div>
+
+<div class="controls">
+  <select id="sortBy">
+    <option value="odds_value">Best odds first</option>
+    <option value="prizes_remaining">Most prizes remaining</option>
+    <option value="top_prize_value">Biggest top prize</option>
+  </select>
+  <input id="search" placeholder="Filter by name…">
+</div>
+
+<div id="list"></div>
+<div id="status"></div>
+
+<script>
+let allGames = [];
+
+async function load() {
+  const status = document.getElementById('status');
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('data.json not found');
+    const data = await res.json();
+    allGames = data.games;
+    document.getElementById('updated').textContent =
+      'Updated: ' + new Date(data.scraped_at).toLocaleString() + ' — ' + data.note;
+    render();
+  } catch (e) {
+    status.textContent = 'Could not load data.json yet. Run scrape.py once, or wait for the daily job to run.';
+  }
+}
+
+function render() {
+  const sortBy = document.getElementById('sortBy').value;
+  const query = document.getElementById('search').value.toLowerCase();
+  const list = document.getElementById('list');
+  list.innerHTML = '';
+
+  let games = allGames.filter(g => g.name.toLowerCase().includes(query));
+
+  games.sort((a, b) => {
+    const av = a[sortBy], bv = b[sortBy];
+    if (av == null) return 1;
+    if (bv == null) return -1;
+    return sortBy === 'odds_value' ? av - bv : bv - av; // lower odds_value = better
+  });
+
+  for (const g of games) {
+    const div = document.createElement('div');
+    div.className = 'card' + (g.prizes_remaining === 0 ? ' depleted' : '');
+    div.innerHTML = `
+      <div class="card-top">
+        <span class="name">${g.name}${g.prizes_remaining === 0 ? '<span class="badge">Top prize claimed</span>' : ''}</span>
+        <span class="price">${g.price}</span>
+      </div>
+      <div class="row"><span class="label">Top prize</span><span class="top-prize">${g.top_prize}</span></div>
+      <div class="row"><span class="label">Top prizes remaining</span><span>${g.prizes_remaining ?? '—'}</span></div>
+      <div class="row"><span class="label">Overall odds</span><span class="odds">${g.odds}</span></div>
+      <div class="row"><span class="label">Game #</span><span>${g.game_number}</span></div>
+    `;
+    list.appendChild(div);
+  }
+}
+
+document.getElementById('sortBy').addEventListener('change', render);
+document.getElementById('search').addEventListener('input', render);
+load();
+</script>
+
+</body>
+</html>

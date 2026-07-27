@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="800" height="460" fill="#ffffff"/>
+  <rect width="800" height="460" fill="none" stroke="#d0d7de" stroke-width="1"/>
+
+  <rect width="800" height="56" fill="#24292f"/>
+  <text x="20" y="34" font-size="16" fill="#ffffff">github.com/you/fl-scratch-offs/settings/pages</text>
+
+  <!-- left sidebar -->
+  <rect x="0" y="56" width="190" height="404" fill="#f6f8fa"/>
+  <text x="20" y="90" font-size="13" fill="#57606a">General</text>
+  <text x="20" y="118" font-size="13" fill="#57606a">Collaborators</text>
+  <text x="20" y="146" font-size="13" fill="#57606a">Branches</text>
+  <rect x="0" y="164" width="190" height="30" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="20" y="184" font-size="13" fill="#0969da" font-weight="700">Pages</text>
+  <text x="200" y="184" font-size="12" fill="#57606a">← click here</text>
+  <text x="20" y="212" font-size="13" fill="#57606a">Actions</text>
+
+  <!-- main panel -->
+  <text x="220" y="95" font-size="20" fill="#1f2328" font-weight="600">GitHub Pages</text>
+
+  <text x="220" y="140" font-size="13" fill="#57606a">Build and deployment</text>
+  <text x="220" y="165" font-size="13" fill="#1f2328">Source</text>
+  <rect x="220" y="172" width="260" height="34" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="232" y="194" font-size="13" fill="#1f2328">Deploy from a branch  ▾</text>
+
+  <text x="220" y="230" font-size="13" fill="#1f2328">Branch</text>
+  <rect x="220" y="237" width="150" height="34" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="232" y="259" font-size="13" fill="#1f2328">main  ▾</text>
+  <rect x="380" y="237" width="120" height="34" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="392" y="259" font-size="13" fill="#1f2328">/ (root)  ▾</text>
+
+  <rect x="510" y="237" width="70" height="34" rx="6" fill="#1f883d"/>
+  <text x="527" y="259" font-size="13" fill="#ffffff" font-weight="600">Save</text>
+  <text x="590" y="259" font-size="12" fill="#57606a">← click</text>
+
+  <rect x="220" y="310" width="500" height="60" rx="6" fill="#ddf4e4" stroke="#1f883d"/>
+  <text x="235" y="335" font-size="13" fill="#1a7f37" font-weight="600">✓ Your site will be live at:</text>
+  <text x="235" y="355" font-size="13" fill="#0969da">https://you.github.io/fl-scratch-offs/</text>
+</svg>
