@@ -1,7 +1,7 @@
 {
   "source": "https://www.lottery.net/florida/scratch-offs",
   "note": "Data aggregated from public Florida Lottery figures; not the official site itself.",
-  "scraped_at": "2026-08-19T13:41:06.761291+00:00",
+  "scraped_at": "2026-08-20T13:43:25.587705+00:00",
   "games": [
     {
       "name": "Millionaire Maker",
@@ -538,7 +538,7 @@
       "price_value": 10.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 8288,
+      "prizes_remaining": 8228,
       "odds": "1 in 8.89",
       "odds_value": 8.89
     },
@@ -725,7 +725,7 @@
       "price_value": 5.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 1307,
+      "prizes_remaining": 1296,
       "odds": "1 in 9.78",
       "odds_value": 9.78
     },
@@ -926,17 +926,6 @@
       "prizes_remaining": 4,
       "odds": "1 in 3.91",
       "odds_value": 3.91
-    },
-    {
-      "name": "Power 20X",
-      "game_number": "1941",
-      "price": "$5",
-      "price_value": 5.0,
-      "top_prize": "$606,600",
-      "top_prize_value": 606600.0,
-      "prizes_remaining": null,
-      "odds": "1 in 0",
-      "odds_value": 0.0
     }
   ]
 }
