@@ -1,7 +1,7 @@
 {
   "source": "https://www.lottery.net/florida/scratch-offs",
   "note": "Data aggregated from public Florida Lottery figures; not the official site itself.",
-  "scraped_at": "2026-10-01T18:40:58.817186+00:00",
+  "scraped_at": "2026-10-02T18:12:04.878511+00:00",
   "games": [
     {
       "name": "Millionaire Maker",
@@ -219,7 +219,7 @@
       "price_value": 2.0,
       "top_prize": "$100,000",
       "top_prize_value": 100000.0,
-      "prizes_remaining": 8,
+      "prizes_remaining": 7,
       "odds": "1 in 4.69",
       "odds_value": 4.69
     },
@@ -538,7 +538,7 @@
       "price_value": 10.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 5710,
+      "prizes_remaining": 5638,
       "odds": "1 in 8.89",
       "odds_value": 8.89
     },
@@ -725,7 +725,7 @@
       "price_value": 5.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 802,
+      "prizes_remaining": 795,
       "odds": "1 in 9.78",
       "odds_value": 9.78
     },
@@ -912,7 +912,7 @@
       "price_value": 50.0,
       "top_prize": "$500,000",
       "top_prize_value": 500000.0,
-      "prizes_remaining": 56,
+      "prizes_remaining": 55,
       "odds": "1 in 4.08",
       "odds_value": 4.08
     },
