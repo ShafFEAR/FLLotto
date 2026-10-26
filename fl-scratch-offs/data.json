@@ -1,19 +1,8 @@
 {
   "source": "https://www.lottery.net/florida/scratch-offs",
   "note": "Data aggregated from public Florida Lottery figures; not the official site itself.",
-  "scraped_at": "2026-10-22T17:50:13.746161+00:00",
+  "scraped_at": "2026-10-26T19:00:37.659988+00:00",
   "games": [
-    {
-      "name": "Millionaire Maker",
-      "game_number": "5058",
-      "price": "$5",
-      "price_value": 5.0,
-      "top_prize": "$1,000,000",
-      "top_prize_value": 1000000.0,
-      "prizes_remaining": 0,
-      "odds": "1 in 3.99",
-      "odds_value": 3.99
-    },
     {
       "name": "Easy Money",
       "game_number": "5057",
@@ -24,17 +13,6 @@
       "prizes_remaining": 3,
       "odds": "1 in 4.41",
       "odds_value": 4.41
-    },
-    {
-      "name": "Jeopardy",
-      "game_number": "5056",
-      "price": "$5",
-      "price_value": 5.0,
-      "top_prize": "$1,000,000",
-      "top_prize_value": 1000000.0,
-      "prizes_remaining": 4,
-      "odds": "1 in 3.86",
-      "odds_value": 3.86
     },
     {
       "name": "Emerald Mine 9X",
@@ -79,17 +57,6 @@
       "prizes_remaining": 0,
       "odds": "1 in 2.95",
       "odds_value": 2.95
-    },
-    {
-      "name": "$10 Monopoly Secret Vault",
-      "game_number": "1568",
-      "price": "$10",
-      "price_value": 10.0,
-      "top_prize": "$2,000,000",
-      "top_prize_value": 2000000.0,
-      "prizes_remaining": 0,
-      "odds": "1 in 3.41",
-      "odds_value": 3.41
     },
     {
       "name": "$5 Monopoly Secret Vault",
@@ -180,17 +147,6 @@
       "odds_value": 4.68
     },
     {
-      "name": "$5Mm Triple Match",
-      "game_number": "1543",
-      "price": "$20",
-      "price_value": 20.0,
-      "top_prize": "$5,000,000",
-      "top_prize_value": 5000000.0,
-      "prizes_remaining": 0,
-      "odds": "1 in 2.85",
-      "odds_value": 2.85
-    },
-    {
       "name": "$5M Crossword Cash",
       "game_number": "1539",
       "price": "$20",
@@ -246,17 +202,6 @@
       "odds_value": 4.0
     },
     {
-      "name": "Triple Crossword",
-      "game_number": "1497",
-      "price": "$3",
-      "price_value": 3.0,
-      "top_prize": "$150,000",
-      "top_prize_value": 150000.0,
-      "prizes_remaining": 0,
-      "odds": "1 in 4.09",
-      "odds_value": 4.09
-    },
-    {
       "name": "The Cash Wheel",
       "game_number": "5059",
       "price": "$5",
@@ -277,28 +222,6 @@
       "prizes_remaining": 0,
       "odds": "1 in 4.07",
       "odds_value": 4.07
-    },
-    {
-      "name": "The Perfect Gift",
-      "game_number": "7028",
-      "price": "$20",
-      "price_value": 20.0,
-      "top_prize": "$5,000,000",
-      "top_prize_value": 5000000.0,
-      "prizes_remaining": 2,
-      "odds": "1 in 2.79",
-      "odds_value": 2.79
-    },
-    {
-      "name": "$5,000 Holiday Blowout",
-      "game_number": "1575",
-      "price": "$1",
-      "price_value": 1.0,
-      "top_prize": "$5,000",
-      "top_prize_value": 5000.0,
-      "prizes_remaining": 3,
-      "odds": "1 in 4.91",
-      "odds_value": 4.91
     },
     {
       "name": "Ultimate Vip Cashword",
@@ -323,28 +246,6 @@
       "odds_value": 3.93
     },
     {
-      "name": "$2Mm Gold Rush Multiplier",
-      "game_number": "1586",
-      "price": "$10",
-      "price_value": 10.0,
-      "top_prize": "$2,000,000",
-      "top_prize_value": 2000000.0,
-      "prizes_remaining": 1,
-      "odds": "1 in 3.41",
-      "odds_value": 3.41
-    },
-    {
-      "name": "$100K Gold Rush Multiplier",
-      "game_number": "1584",
-      "price": "$2",
-      "price_value": 2.0,
-      "top_prize": "$100,000",
-      "top_prize_value": 100000.0,
-      "prizes_remaining": 0,
-      "odds": "1 in 4.54",
-      "odds_value": 4.54
-    },
-    {
       "name": "$10K Gold Rush Multiplier",
       "game_number": "1583",
       "price": "$1",
@@ -365,17 +266,6 @@
       "prizes_remaining": 1,
       "odds": "1 in 4.09",
       "odds_value": 4.09
-    },
-    {
-      "name": "5 Times Lucky",
-      "game_number": "1588",
-      "price": "$5",
-      "price_value": 5.0,
-      "top_prize": "$1,000,000",
-      "top_prize_value": 1000000.0,
-      "prizes_remaining": 0,
-      "odds": "1 in 3.9",
-      "odds_value": 3.9
     },
     {
       "name": "Quick $100S",
@@ -420,17 +310,6 @@
       "prizes_remaining": 2,
       "odds": "1 in 3.97",
       "odds_value": 3.97
-    },
-    {
-      "name": "Scorching Hot 7S",
-      "game_number": "1597",
-      "price": "$10",
-      "price_value": 10.0,
-      "top_prize": "$2,000,000",
-      "top_prize_value": 2000000.0,
-      "prizes_remaining": 1,
-      "odds": "1 in 3.39",
-      "odds_value": 3.39
     },
     {
       "name": "Guy Harvey $1M Florida Big Bills",
@@ -488,28 +367,6 @@
       "odds_value": 4.19
     },
     {
-      "name": "$500 A Week For Life",
-      "game_number": "1598",
-      "price": "$1",
-      "price_value": 1.0,
-      "top_prize": "$500 WK/LIFE",
-      "top_prize_value": 500.0,
-      "prizes_remaining": 1,
-      "odds": "1 in 4.83",
-      "odds_value": 4.83
-    },
-    {
-      "name": "Win It All!",
-      "game_number": "1614",
-      "price": "$2",
-      "price_value": 2.0,
-      "top_prize": "$50,000",
-      "top_prize_value": 50000.0,
-      "prizes_remaining": 0,
-      "odds": "1 in 4.41",
-      "odds_value": 4.41
-    },
-    {
       "name": "$500,000 Cash Blowout!",
       "game_number": "1604",
       "price": "$50",
@@ -538,20 +395,9 @@
       "price_value": 10.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 4374,
+      "prizes_remaining": 4112,
       "odds": "1 in 8.89",
       "odds_value": 8.89
-    },
-    {
-      "name": "Break The Bank",
-      "game_number": "1606",
-      "price": "$5",
-      "price_value": 5.0,
-      "top_prize": "$1,000,000",
-      "top_prize_value": 1000000.0,
-      "prizes_remaining": 1,
-      "odds": "1 in 3.94",
-      "odds_value": 3.94
     },
     {
       "name": "$150,000 Crossword Bonus",
@@ -574,39 +420,6 @@
       "prizes_remaining": 1,
       "odds": "1 in 2.68",
       "odds_value": 2.68
-    },
-    {
-      "name": "$500,000 Holiday Ca$H",
-      "game_number": "1612",
-      "price": "$10",
-      "price_value": 10.0,
-      "top_prize": "$500,000",
-      "top_prize_value": 500000.0,
-      "prizes_remaining": 1,
-      "odds": "1 in 3.46",
-      "odds_value": 3.46
-    },
-    {
-      "name": "$250,000 Holiday Ca$H",
-      "game_number": "1611",
-      "price": "$5",
-      "price_value": 5.0,
-      "top_prize": "$250,000",
-      "top_prize_value": 250000.0,
-      "prizes_remaining": 2,
-      "odds": "1 in 3.67",
-      "odds_value": 3.67
-    },
-    {
-      "name": "$10,000 Holiday Ca$H",
-      "game_number": "1609",
-      "price": "$1",
-      "price_value": 1.0,
-      "top_prize": "$10,000",
-      "top_prize_value": 10000.0,
-      "prizes_remaining": 1,
-      "odds": "1 in 4.83",
-      "odds_value": 4.83
     },
     {
       "name": "Double Diamond Cashword",
@@ -725,20 +538,9 @@
       "price_value": 5.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 642,
+      "prizes_remaining": 608,
       "odds": "1 in 9.78",
       "odds_value": 9.78
-    },
-    {
-      "name": "Lucky Clovers",
-      "game_number": "1625",
-      "price": "$2",
-      "price_value": 2.0,
-      "top_prize": "$50,000",
-      "top_prize_value": 50000.0,
-      "prizes_remaining": 1,
-      "odds": "1 in 4.2",
-      "odds_value": 4.2
     },
     {
       "name": "America 250 Florida",
@@ -750,17 +552,6 @@
       "prizes_remaining": 2,
       "odds": "1 in 4.01",
       "odds_value": 4.01
-    },
-    {
-      "name": "Fast $50\u2019S",
-      "game_number": "1624",
-      "price": "$1",
-      "price_value": 1.0,
-      "top_prize": "$5,000",
-      "top_prize_value": 5000.0,
-      "prizes_remaining": 2,
-      "odds": "1 in 4.84",
-      "odds_value": 4.84
     },
     {
       "name": "$2,000,000 Fortune",
@@ -912,7 +703,7 @@
       "price_value": 50.0,
       "top_prize": "$500,000",
       "top_prize_value": 500000.0,
-      "prizes_remaining": 54,
+      "prizes_remaining": 53,
       "odds": "1 in 4.08",
       "odds_value": 4.08
     },
@@ -923,7 +714,7 @@
       "price_value": 5.0,
       "top_prize": "$1,000,000",
       "top_prize_value": 1000000.0,
-      "prizes_remaining": 2,
+      "prizes_remaining": 1,
       "odds": "1 in 3.91",
       "odds_value": 3.91
     },
@@ -945,7 +736,7 @@
       "price_value": 10.0,
       "top_prize": "$2,000,000",
       "top_prize_value": 2000000.0,
-      "prizes_remaining": 6,
+      "prizes_remaining": 5,
       "odds": "1 in 3.38",
       "odds_value": 3.38
     },
