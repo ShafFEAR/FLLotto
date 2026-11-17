@@ -1,7 +1,7 @@
 {
   "source": "https://www.lottery.net/florida/scratch-offs",
   "note": "Data aggregated from public Florida Lottery figures; not the official site itself.",
-  "scraped_at": "2026-11-16T22:43:37.059680+00:00",
+  "scraped_at": "2026-11-17T21:29:15.048644+00:00",
   "games": [
     {
       "name": "Easy Money",
@@ -252,7 +252,7 @@
       "price_value": 1.0,
       "top_prize": "$10,000",
       "top_prize_value": 10000.0,
-      "prizes_remaining": 22,
+      "prizes_remaining": 21,
       "odds": "1 in 4.65",
       "odds_value": 4.65
     },
@@ -395,7 +395,7 @@
       "price_value": 10.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 2996,
+      "prizes_remaining": 2943,
       "odds": "1 in 8.89",
       "odds_value": 8.89
     },
@@ -538,7 +538,7 @@
       "price_value": 5.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 529,
+      "prizes_remaining": 523,
       "odds": "1 in 9.78",
       "odds_value": 9.78
     },
@@ -747,7 +747,7 @@
       "price_value": 5.0,
       "top_prize": "$1,000,000",
       "top_prize_value": 1000000.0,
-      "prizes_remaining": 3,
+      "prizes_remaining": 2,
       "odds": "1 in 3.93",
       "odds_value": 3.93
     },
@@ -780,7 +780,7 @@
       "price_value": 20.0,
       "top_prize": "$1,000,000",
       "top_prize_value": 1000000.0,
-      "prizes_remaining": 3,
+      "prizes_remaining": 2,
       "odds": "1 in 2.96",
       "odds_value": 2.96
     },
@@ -802,7 +802,7 @@
       "price_value": 5.0,
       "top_prize": "$250,000",
       "top_prize_value": 250000.0,
-      "prizes_remaining": 5,
+      "prizes_remaining": 4,
       "odds": "1 in 3.81",
       "odds_value": 3.81
     },
