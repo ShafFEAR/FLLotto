@@ -1,7 +1,7 @@
 {
   "source": "https://www.lottery.net/florida/scratch-offs",
   "note": "Data aggregated from public Florida Lottery figures; not the official site itself.",
-  "scraped_at": "2026-11-24T22:53:57.257736+00:00",
+  "scraped_at": "2026-11-26T22:06:04.650172+00:00",
   "games": [
     {
       "name": "Easy Money",
@@ -395,7 +395,7 @@
       "price_value": 10.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 2532,
+      "prizes_remaining": 2399,
       "odds": "1 in 8.89",
       "odds_value": 8.89
     },
@@ -538,7 +538,7 @@
       "price_value": 5.0,
       "top_prize": "$500",
       "top_prize_value": 500.0,
-      "prizes_remaining": 488,
+      "prizes_remaining": 474,
       "odds": "1 in 9.78",
       "odds_value": 9.78
     },
